@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.main-header {
+    background: linear-gradient(135deg, #1f497d, #112d4e);
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.header-container h1 {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.header-container p {
+    font-size: 1rem;
+    color: #dbe2ef;
+    margin-bottom: 1.5rem;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.main-nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card-section {
+    background: #ffffff;
+    padding: 1.8rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card-section h2 {
+    color: #1f497d;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3f72af;
+    padding-bottom: 0.4rem;
+}
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+.member-card {
+    background: #f8f9fa;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.avatar {
+    width: 55px;
+    height: 55px;
+    background: #3f72af;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 0.8rem auto;
+}
+
+.member-card h3 {
+    color: #112d4e;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+
+.member-card .role {
+    color: #3f72af;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 0.6rem;
+}
+
+.member-card .bio {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-item {
+    border-left: 4px solid #3f72af;
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 0 6px 6px 0;
+}
+
+.ai-disclosure {
+    background: #eef5ff;
+    border: 1px dashed #3f72af;
+}
+
+.ai-disclosure ul {
+    list-style-position: inside;
+    margin-top: 0.5rem;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 1.2rem;
+    background: #112d4e;
+    color: #ffffff;
+    font-size: 0.85rem;
+    margin-top: 2rem;
+}
